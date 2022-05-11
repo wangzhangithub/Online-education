@@ -7,10 +7,7 @@ public class UploadVideoTest {
 
     @Test
     public void test(){
-        String accessKeyId="LTAI5t8wbiKzjda5tgYXRVwb";
-        String accessKeySecret="NJvF5tDgc25ep3EUxtKx1zon9A3ShK";
-        String title="wang-work";
-        String fileName="D:\\Video\\20200602_142931.mp4";
+        
 
         UploadVideoRequest request = new UploadVideoRequest(accessKeyId, accessKeySecret, title, fileName);
         /* 可指定分片上传时每个分片的大小，默认为2M字节 */
